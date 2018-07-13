@@ -12,7 +12,7 @@ const mutations={
     ADD_NOTE(state){
         const newNote={
             text:'new Note',
-            like:false
+            like:false  
         }; 
         state.NotesList.push(newNote);
         state.activeNote=newNote;
